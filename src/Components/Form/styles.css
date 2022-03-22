@@ -1,0 +1,86 @@
+.formContainer {
+  text-align: center;
+  width: 33%;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+
+.formContainer-Header {
+  background-image: url("../../../public/img/header3.png");
+  background-repeat: no-repeat;
+  height: 150px;
+  background-size: 100% 100%;
+}
+
+.formContainer-Content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.formContainer-Content--divCheckbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formContainer-Content--divInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.formContainer-Content-divInfo--buttons {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.formContainer-Content-divInfo--buttons button {
+  background-color: #2f3676;
+  color: white;
+  border-radius: 4px;
+  font-size: 2rem;
+  width: 10%;
+  border: none;
+}
+
+.formContainer-Content-divInfo--buttons input {
+  width: 50px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+  background-color: #dde3e9;
+}
+
+.formContainer-Content--obsInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formContainer-Content--obsInfo {
+  width: 98%;
+}
+.formContainer-Content--obsInfo span {
+  background-color: red;
+}
+.formContainer-Content--obsInfo button {
+  font-size: 13px;
+  width: 100px;
+  margin-top: 3.2rem;
+  margin-bottom: 1rem;
+  background-color: #2f3676;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding:8px;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.formContainer-Content--obsInfo textarea {
+  background-color: #dde3e9;
+}
