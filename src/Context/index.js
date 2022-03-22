@@ -20,11 +20,14 @@ export const Context = ({ children }) => {
             })
         }
     }
-    console.log('formData', formData);
+
+    const removeData = () => {
+        setFormData([]);
+    }
 
     return (
         <myContext.Provider value={{
-            submitData, formData
+            submitData, formData, removeData
         }}>
             {children}
         </myContext.Provider>
@@ -32,7 +35,7 @@ export const Context = ({ children }) => {
 }
 
 export const useMyContext = () => {
-    const { formData, submitData } = useContext(myContext);
+    const { formData, submitData, removeData } = useContext(myContext);
 
-    return { formData, submitData };
+    return { formData, submitData, removeData };
 };

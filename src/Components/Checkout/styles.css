@@ -1,4 +1,29 @@
 .checkoutContainer {
-    border: 1px solid black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.checkoutContainer-Content {
+    border: 3px solid purple;
+    width: 100%;
+    padding: 10px ;
+    margin-top: 10%;
+    min-width: 500px;
+    
+}
+.checkoutContainer-Content p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.checkoutContainer-Content span {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.checkoutContainer-Content button {
+  font-size: 16px;
+  display: flex;
+  margin-top: 5%;
 }

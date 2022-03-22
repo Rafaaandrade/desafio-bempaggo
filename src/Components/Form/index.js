@@ -35,7 +35,7 @@ const Form = () => {
     };
 
     const sendData = () => {
-        if(stickers && counter){
+        if(stickers.length >= 1 && counter){
             submitData(stickers, counter, observation);
             navigate("/checkout")
         }
@@ -43,8 +43,6 @@ const Form = () => {
             alert("Não possuí quantidade e/ou adesivos")
         }
     };
-    console.log("counter", counter);
-    console.log("observation", observation);
 
     return (
         <div className="formContainer">
